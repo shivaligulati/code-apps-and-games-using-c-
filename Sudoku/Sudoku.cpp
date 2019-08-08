@@ -36,7 +36,7 @@ void printBoard(int grid[9][9]) {
 bool checkBoard(int grid[9][9]) {
 	bool check[9] = { false, false, false, false, false, false, false, false, false };
 
-	check rows of sedoku board for repeats
+	//check rows of sedoku board for repeats
 	for (int i = 0; i < 9; i++) {
 		for (int j = 0; j < 9; j++) {
 			cout << "Checking position: (" << i << ", " << j << "): " << grid[i][j] << endl;
